@@ -86,16 +86,6 @@ Here is a brief overview of the project structure:
 ├── tailwind.config.js
 └── README.md
 
-
-markdown
-Copy code
-
-- **`components/`**: Contains the React components used in the app.
-- **`lib/`**: Contains the Apollo Client configuration.
-- **`pages/`**: Contains the Next.js pages.
-- **`styles/`**: Contains global styles.
-- **`utils/`**: Contains utility functions (e.g., debounce).
-
 ## 🎨 Styling
 
 This project uses Tailwind CSS for styling and Shadcn UI for pre-built React components, making it easy to maintain a consistent and modern design.
