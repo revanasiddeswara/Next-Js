@@ -32,7 +32,7 @@ Make sure you have the following installed:
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/nextjs-albums.git
+    git clone https://github.com/revanasiddeswara/Next-Js.git
     cd nextjs-albums
     ```
 
@@ -57,17 +57,31 @@ Make sure you have the following installed:
 Here is a brief overview of the project structure:
 
 .
-├── components/
-│ └── ...
-├── lib/
-│ └── apolloClient.js
-├── pages/
-│ ├── _app.js
-│ └── albums.js
-├── styles/
-│ └── globals.css
-├── utils/
-│ └── debounce.js
+├── src
+    ├── app
+       ├── albums/
+           ├── AlbumList.js
+           ├── page.js
+           └── style.css
+        ├── component/
+            ├── container.js
+            ├── debounce.js
+            ├── layout.js
+            └── pagination.js
+        ├── lib/
+            └──appolloClient.js
+        ├── pages/
+            └──_app.js
+        ├── queries/
+            └──album.js
+        ├── ui/
+            ├── button.jsx
+            └── input.jsx
+        ├──favicon.ico
+        ├── globals.css
+        └──layout.js
+    ├── lib/
+        └── util.js    
 ├── .gitignore
 ├── package.json
 ├── tailwind.config.js
