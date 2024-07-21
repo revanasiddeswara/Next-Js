@@ -55,37 +55,37 @@ Make sure you have the following installed:
 ## 📁 Project Structure
 
 Here is a brief overview of the project structure:
-
 .
 ├── src
-    ├── app
-       ├── albums/
-           ├── AlbumList.js
-           ├── page.js
-           └── style.css
-        ├── component/
-            ├── container.js
-            ├── debounce.js
-            ├── layout.js
-            └── pagination.js
-        ├── lib/
-            └──appolloClient.js
-        ├── pages/
-            └──_app.js
-        ├── queries/
-            └──album.js
-        ├── ui/
-            ├── button.jsx
-            └── input.jsx
-        ├──favicon.ico
-        ├── globals.css
-        └──layout.js
-    ├── lib/
-        └── util.js    
+│   ├── app
+│   │   ├── albums
+│   │   │   ├── AlbumList.js
+│   │   │   ├── page.js
+│   │   │   └── style.css
+│   │   ├── component
+│   │   │   ├── container.js
+│   │   │   ├── debounce.js
+│   │   │   ├── layout.js
+│   │   │   └── pagination.js
+│   │   ├── lib
+│   │   │   └── apolloClient.js
+│   │   ├── pages
+│   │   │   └── _app.js
+│   │   ├── queries
+│   │   │   └── album.js
+│   │   ├── ui
+│   │   │   ├── button.jsx
+│   │   │   └── input.jsx
+│   │   ├── favicon.ico
+│   │   ├── globals.css
+│   │   └── layout.js
+│   ├── lib
+│   │   └── util.js
 ├── .gitignore
 ├── package.json
 ├── tailwind.config.js
 └── README.md
+
 
 markdown
 Copy code
