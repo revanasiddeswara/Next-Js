@@ -33,7 +33,7 @@ Make sure you have the following installed:
 
     ```bash
     git clone https://github.com/revanasiddeswara/Next-Js.git
-    cd nextjs-albums
+    
     ```
 
 2. **Install dependencies:**
